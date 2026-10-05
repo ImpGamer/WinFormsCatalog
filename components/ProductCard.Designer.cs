@@ -156,15 +156,16 @@
             // 
             // productName
             // 
-            productName.Dock = DockStyle.Top;
-            productName.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            productName.ForeColor = Color.FromArgb(35, 35, 35);
-            productName.Location = new Point(18, 15);
-            productName.Name = "productName";
-            productName.Size = new Size(315, 42);
-            productName.TabIndex = 0;
-            productName.Text = "Nombre del producto";
-            productName.TextAlign = ContentAlignment.MiddleCenter;
+            this.productName.AutoSize = true;
+            this.productName.Dock = DockStyle.Top;
+            this.productName.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            this.productName.ForeColor = Color.FromArgb(35, 35, 35);
+            this.productName.MaximumSize = new Size(315, 0);
+            this.productName.Name = "productName";
+            this.productName.Padding = new Padding(0);
+            this.productName.TabIndex = 0;
+            this.productName.Text = "Nombre del producto";
+            this.productName.TextAlign = ContentAlignment.MiddleCenter;
 
             // 
             // image
