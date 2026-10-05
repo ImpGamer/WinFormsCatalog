@@ -27,5 +27,8 @@
   <ItemGroup>
     <None Update="assets\**\*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\images\products\" />
+  </ItemGroup>
 
 </Project>

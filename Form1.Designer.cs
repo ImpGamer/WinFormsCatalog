@@ -126,7 +126,7 @@
             _carouselPanel.Location = new Point(0, 64);
             _carouselPanel.Name = "_carouselPanel";
             _carouselPanel.Padding = new Padding(10);
-            _carouselPanel.Size = new Size(904, 480);
+            _carouselPanel.Size = new Size(904, 280);
             _carouselPanel.TabIndex = 1;
             // 
             // _carouselImage
